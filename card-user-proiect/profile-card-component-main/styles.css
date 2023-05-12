@@ -9,6 +9,10 @@ Dark gray: hsl(0, 0%, 59%) */
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color:hsl(185, 75%, 39%) ;
+}
+
 
 .card {
   font-family: "Kumbh Sans";
@@ -17,6 +21,8 @@ Dark gray: hsl(0, 0%, 59%) */
   border: 1px solid black;
   border-radius: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  
 }
 
 .card-user {
@@ -27,12 +33,15 @@ Dark gray: hsl(0, 0%, 59%) */
 }
 .card-user-name {
   font-size: 18px;
+  font-weight: bold;
+  color:  hsl(227, 10%, 46%);
 }
 
 .card-user-location {
   margin-top: 10px;
   font-size: 14px;
   color: hsl(227, 10%, 46%);
+  margin-bottom: 50px;
 }
 
 .card-user-photo {
@@ -53,24 +62,36 @@ Dark gray: hsl(0, 0%, 59%) */
 .card-stats {
   background-color: white;
   margin: 0px;
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+  
 }
 
 .card-stats-title {
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  
+  
 }
 
 .card-stats-text {
+  color: hsl(0, 0%, 59%) ;
+  position: relative;
+  left: 50px;
 }
 
 .top-bg {
   position: absolute;
-  top: -500px;
+  top: -400px;
   left: -400px;
   z-index: -1;
 }
 
 .bot-bg {
   position: absolute;
-  bottom: -500px;
+  bottom: -700px;
   right: -300px;
   z-index: -1;
 }

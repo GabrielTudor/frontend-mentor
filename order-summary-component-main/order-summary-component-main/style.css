@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    border-radius: 20px;
+    width: 400px;  
+    text-align: center;  
+    font-family:"Red Hat Display";
+    margin: 150px auto 50px auto;
+    background-color:hsl(225, 100%, 94%) ;
+    margin-bottom:100px ;
+    height: 650px;    
+}
+
+.card-text{
+    font-size: 16px;
+}
+.card-text3{
+    margin: 50px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+}
+
+
+.card-title{
+    color:hsl(223, 47%, 23%) ;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.card-head{
+    height: 220px;
+    border-radius: 20px 20px 0 0 ;
+    background-image: url("./images/illustration-hero.svg");
+}
+.text1{
+    color:hsl(223, 47%, 23%) ;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.text2{
+    margin-top: 0;
+    color:hsl(224, 23%, 55%) ;
+    font-size: 19px;
+}
+.card2{
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    background-color: hsl(225, 100%, 98%);
+    
+}
+.card-text2{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+.card-button{
+   position: relative;
+   left: 60px;
+   top: 20px;
+   color:hsl(245, 75%, 52%);
+}
+.card-image1{
+    position: relative;
+    top: 8px;
+}
+.card-button1{
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    background-color:hsl(245, 75%, 52%)  ;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+}
+.card-button2{
+    color: hsl(224, 23%, 55%);
+    position: relative;
+    top: 15px;
+   
+}
+
