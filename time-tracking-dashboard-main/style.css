@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    transform: translate(30%);
+    position: absolute;
+    top: 30%;
+    
+    
+}
+
+.card-image1{
+    width: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px; 
+    border: white solid 2px;
+    border-radius: 100px;
+}
+
+.card-container{
+    background-color:hsl(246, 80%, 60%);
+    width:200px;
+    height: 270px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    
+}
+.card{
+    background-color:hsl(235, 46%, 20%) ;
+    width: 200px;
+    height: 420px;
+    border-radius: 20px;
+    position: relative;
+    
+    
+}
+
+.card-text{
+    padding-top: 340px;      
+
+}
+.card-text:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.card-text1{
+    margin-bottom: 0;
+    padding-top: 100px;
+    margin-left:20px ;
+    color:hsl(236, 100%, 87%) ;
+}
+
+.card-text2{
+    margin-top: 0;
+    color:hsl(236, 100%, 87%) ;
+    margin-left: 20px;
+
+}
+.child-work{
+    background-image: url("./images/icon-work.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color: hsl(15, 100%, 70%) ;
+    border-radius:20px;
+
+}
+   
+
+.text1{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+    
+h1{
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 50px;
+}
+p{
+    margin-left:20px;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+    color:hsl(235, 45%, 61%) ;
+}
+
+.child-play{
+    background-image: url("./images/icon-play.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color: hsl(195, 74%, 62%)  ;
+    border-radius:20px;
+
+}
+   
+
+.text2{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+
+
+
+.container{
+    display: flex;
+    font-size: 18px;
+    font-family: "Rubik";
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    width: 900px;
+    
+}
+.card2{
+    display: flex;
+    position: relative;
+    left: 210px;
+    bottom: 200px;
+    width: 690px;
+    justify-content: space-evenly;
+    font-size: 18px;
+    
+}
+
+    
+
+
+
+
+
+.child-study{
+    background-image: url("./images/icon-study.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color:hsl(348, 100%, 68%);
+    border-radius:20px;
+
+}
+   
+
+.text3{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.child-exercise{
+    background-image: url("./images/icon-exercise.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color:  hsl(145, 58%, 55%);
+    border-radius:20px;
+
+}
+   
+
+.text4{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+
+.child-social{
+    background-image: url("./images/icon-social.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color:hsl(264, 64%, 52%)  ;
+    border-radius:20px;
+
+}
+   
+
+.text5{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+
+.child-selfcare{
+    background-image: url("./images/icon-self-care.svg");
+    width: 220px;
+    height: 200px;
+    position: relative;
+    background-color:hsl(43, 84%, 65%);
+    border-radius:20px;
+
+}
+   
+
+.text6{
+    width: 220px;
+    height:170px ;
+    background-color: hsl(235, 46%, 20%);
+    position:absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+h6{
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.card-image2{
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
+
+.card-image3{
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav_style {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section_element h1 {
+    font-size: 39px;
+
+}
+.section_element p{
+    font-size: 22px;
+}
+
+.input_border{
+    width: 395px;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 75%);
+
+}
+.input_wBorder{
+    width: 400px;
+    height: 55px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.img_style{
+    width: 45%;
+
+}
+.img_style1{
+    width: 10px;
+    margin-bottom: 10px;
+}
+
+.img_style2{
+    width: 50px;
+    border-radius: 140px;
+    
+}
+.img_style3{
+    width: 150px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+/* utils */
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+.flex_row2{
+    margin-top: 30px;
+}
+
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+.flex_column2{
+    width: 420px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 300px;
+    padding: 20px;
+    background-color:hsl(240, 75%, 98%) ;
+    font-size: 10px;    
+}
+.flex_column3{
+    background-color:hsl(238, 22%, 44%) ;
+    height: 250px;
+    
+}
+
+
+.align_center {
+    align-items: center;
+    justify-content: center;
+}
+
+.justify_between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_gap {
+    gap: 20px;
+}
+
+.font_header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+
+.font_para {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+
+.font_para1{
+    padding-right:200px ;
+    padding-left:200px;
+    color:hsl(240, 75%, 98%) ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+
+.list_style {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.list_style1{
+    margin-left: 40px;
+}
+
+.button_style {
+    width: 280px;
+    height: 55px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    height: 300px;
+    justify-content: center;
+    color:hsl(240, 75%, 98%) ;
+    
+    
+}
+
+footer img {
+    color: white;
+}
+a{
+    margin-top: 20px;
+}
