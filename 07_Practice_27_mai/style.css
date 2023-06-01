@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    gap: 130px;
+}
+
+.top_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+    padding: 0 20px;
+}
+
+.top_nav_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.top_nav_links a:visited {
+    color: white;
+}
+
+.top_nav_btn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 18px;
+    background-color: white;
+    color: hsl(212, 27%, 19%);
+}
+
+.top_container_title {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.main_section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh 70vh;
+}
+
+.egg_image {
+
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.glass_image {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cherry_image {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.orange_image {
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.main_text{
+  padding: 80px;
+  color:hsl(212, 27%, 19%) ;
+}
+
+.main_text1{
+    color:hsl(212, 27%, 19%) ;
+}
+.text_photo{
+    text-align: center;
+    padding: 70px;
+    margin-top: 140px;
+    color: hsl(167, 40%, 24%) ;
+}
+
+.text_photo1{
+    text-align: center;
+    padding: 70px;
+    margin-top: 140px;
+    color:hsl(198, 62%, 26%) ;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+   
+}
+
+h3{
+   padding-top: 20px;
+   color:hsl(212, 27%, 19%) ;
+}
+.child{
+    width: 80%;
+    text-align: center;
+    color: hsl(212, 27%, 19%) ;
+}
+.section-title{
+    margin-top: 80px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+
+}
+.photo-title{
+    color: hsl(210, 4%, 67%);
+    line-height: 0;
+}
+
+.milk-image{
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+ 
+}
+
+.yellow-image{
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.con-image{
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pink-image{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70vh 70vh 70vh 70vh;
+    width: 100%;
+    height: 400px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    gap: 20px;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.footer2{
+    display:flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+.footer3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.footer-title{
+    color:  hsl(212, 27%, 19%);
+}
+.logo{
+    color:hsl(212, 27%, 19%) ;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .top_nav_links {
+        display: none;
+    }
+
+    .top_container_title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .main_section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_section1 div {
+        height: 50vh;
+    }
+}
