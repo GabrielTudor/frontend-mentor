@@ -1,0 +1,214 @@
+
+*{
+    font-family:"Bai Jamjuree";
+  
+}
+
+body{
+    max-width: 1200px;
+    
+}
+.image-header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.button1{
+    width: 120px;
+    font-size: 10px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:hsl(171, 66%, 44%) ;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.button2{
+    width: 120px;
+    font-size: 10px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:hsl(233, 100%, 69%) ;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.general{
+    text-align: center;
+    
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    
+    
+}
+
+.section{
+    display: flex;
+}
+.header{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+.text{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.text1{
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 600px;
+    margin: auto;
+    padding-left: 60px;
+}
+.text3{
+    width: 1100px;
+    
+}
+.text4{
+    width: 600px;
+    margin: auto;
+}
+.blacklist{
+    position: relative;
+    bottom: 9px;
+}
+.image{
+    width: 100px;
+}
+
+.image1{
+    width: 60px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background-color: white;
+    height: 100px;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.image2{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.logo{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+
+}
+span{
+    margin-top: 20px;
+    color: hsl(233, 100%, 69% );;
+}
+
+li{
+    list-style-type: none;
+    gap: 20px;
+    color: hsl(233, 100%, 69% );;
+}
+p{
+    color:hsl(201, 11%, 66%) ;
+}
+h2{
+    color:hsl(210, 10%, 33%) ;
+    font-weight: bold;
+}
+h1{
+  color:hsl(210, 10%, 33%); 
+  font-weight: bold;
+}
+h4{
+    color:hsl(210, 10%, 33%);
+    font-weight: bold
+
+}
+.logo-image{
+    width: 15px;
+    height: 15px;
+}
+
+
+@media screen and (max-width:576px) {
+
+      .image-devices{
+        width: 400px;
+      }
+    
+
+
+    .text3{
+        width: 500px;
+        
+    }
+
+    .image-devices1{
+        width: 500px;
+        margin-left: 50px;
+    }
+  
+    .super{
+        margin-left: 60px;
+        width: 500px;
+        
+    }
+
+    .display-flex{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: 35px;
+
+    }
+
+    .text4{
+        margin-left: 60px;
+        width: 500px;
+    }
+    .footer1{
+        display: flex ;
+        gap: 40px;   
+    }
+
+    .text1{
+        position: relative;
+        bottom: 60px;
+        right: 40px;
+    }
+
+    .header{
+        width: 550px;
+        margin-left: 20px;
+    }
+    .text2{
+        width: 500px;
+    }
+}
